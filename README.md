@@ -26,8 +26,8 @@ Nicolás Ignacio Bugueño Rementería (nibugr) - 20.007.300-2
 ##  Arquitectura del código
 - Se implementó una arquitectura de tres capas, con paquetes: Dominio, Lógica y PresentacionGUI
 - Dentro del Dominio, se crearon todas las clases identificadas del análisis del problema entregado:
-  Usuario -> (Administrador/Estudiante/Coordinador), Curso/Certificacion/Nota/Registros, además de la implementacion
+  Usuario -> (Administrador/Estudiante/Coordinador), Curso/Certificacion->(DesarrolloSoftware/Ciberseguridad/SistemasInteligentes)/Nota/Registros, además de la implementacion
   de UsuariosFactory.
 - Dentro de la Lógica, se crearon todas las clases funcionales para la resolución del problema, principalmente:
-  Sistema/App y la implementacion del patrón Strategy (EstrategiaValidacion -> ValidacionPorAsignaturascriticas/PorCreditos/PorPromedio.
+  Sistema/App y la implementacion del patrón Strategy (EstrategiaValidacion -> ValidacionPorAsignaturascriticas/PorCreditos/PorPromedio) y un Visitor para las certificaciones.
 - PresentacionGUI solo contiene la clase GUI, que nos permite implementar la interfaz gráfica. 
